@@ -1,0 +1,51 @@
+<!-- packages/todo-web/index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yarn PnP Monorepo Todo</title>
+    <style>
+      body {
+        background: #0f172a;
+        color: #f8fafc;
+        font-family: sans-serif;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .todo-app {
+        background: #1e293b;
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        width: 320px;
+      }
+      input {
+        width: 90%;
+        padding: 0.6rem;
+        border: 1px solid #475569;
+        background: #0f172a;
+        color: white;
+        border-radius: 6px;
+        margin-bottom: 1rem;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        background: #334155;
+        padding: 0.6rem;
+        margin-bottom: 0.5rem;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- Point directly to your app source file -->
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+{
+  "packages/todo-core": {
+    "root": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/todo-web": {
+    "root": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ]
+  }
+}

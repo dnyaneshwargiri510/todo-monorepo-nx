@@ -1,0 +1,70 @@
+{
+  "version": "6.0",
+  "nxVersion": "23.0.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "readme.md",
+        "hash": "6060196532038969651"
+      },
+      {
+        "file": "package.json",
+        "hash": "16458020713129097911"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "15261453433337706351"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "5278389832866736010"
+      },
+      {
+        "file": "nx.json",
+        "hash": "12994764451081892940"
+      }
+    ],
+    "projectFileMap": {
+      "@todo/core": [
+        {
+          "file": "packages/todo-core/index.js",
+          "hash": "2821969542158884709"
+        },
+        {
+          "file": "packages/todo-core/package.json",
+          "hash": "10334376545825537514"
+        }
+      ],
+      "@todo/web": [
+        {
+          "file": "packages/todo-web/app.js",
+          "hash": "6446956968482103797"
+        },
+        {
+          "file": "packages/todo-web/index.html",
+          "hash": "7544263238716633746"
+        },
+        {
+          "file": "packages/todo-web/package.json",
+          "hash": "12290293684988621667",
+          "deps": [
+            "npm:vite",
+            "@todo/core",
+            "npm:vue"
+          ]
+        },
+        {
+          "file": "packages/todo-web/test.js",
+          "hash": "15338845205313572940"
+        },
+        {
+          "file": "packages/todo-web/vite.config.js",
+          "hash": "8238562478958432988"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "16600896611731401902"
+}

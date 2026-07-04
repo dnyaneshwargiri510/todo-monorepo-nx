@@ -2,9 +2,15 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": ["{workspaceRoot}/packages/*/dist", "{workspaceRoot}/packages/*/.next"]
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "{workspaceRoot}/packages/*/dist",
+        "{workspaceRoot}/packages/*/.next"
+      ]
     }
   },
-  "defaultBase": "main"
+  "defaultBase": "main",
+  "analytics": false
 }

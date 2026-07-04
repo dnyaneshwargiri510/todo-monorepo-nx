@@ -32,3 +32,5 @@ pnpm pkg set scripts.build="nx run-many -t build"
 # Commit to the Nx Git history
 git add .
 git commit -m "Initialize isolated Nx structure using pnpm"
+
+pnpm --filter @todo/web dev
