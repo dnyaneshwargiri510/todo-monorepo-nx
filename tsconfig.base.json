@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@todo/core": ["packages/todo-core/index.js"],
+      "@todo/web": ["packages/todo-web/app.js"]
+    }
+  }
+}

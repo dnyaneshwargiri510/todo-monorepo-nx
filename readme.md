@@ -34,3 +34,15 @@ git add .
 git commit -m "Initialize isolated Nx structure using pnpm"
 
 pnpm --filter @todo/web dev
+
+pnpm nx graph
+
+pnpm nx lint
+
+pnpm nx graph --affected
+
+npx nx configure-ai-agents
+
+pnpm add -D eslint @nx/eslint-plugin
+
+pnpm nx lint @todo/core

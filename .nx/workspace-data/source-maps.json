@@ -16,7 +16,19 @@
       "packages/todo-core/package.json",
       "nx/core/package-json"
     ],
+    "tags.scope:backend": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
     "metadata.targetGroups": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
       "packages/todo-core/package.json",
       "nx/core/package-json"
     ],
@@ -43,6 +55,54 @@
     "targets": [
       "packages/todo-core/package.json",
       "nx/core/package-json"
+    ],
+    "targets.lint": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.executor": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options.script": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.options": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.scriptContent": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.lint.metadata.runCommand": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn.0": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "packages/todo-core/package.json",
+      "nx/core/package-json"
     ]
   },
   "packages/todo-web": {
@@ -59,6 +119,10 @@
       "nx/core/package-json"
     ],
     "tags.npm:public": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.scope:frontend": [
       "packages/todo-web/package.json",
       "nx/core/package-json"
     ],
@@ -119,6 +183,26 @@
       "nx/core/package-json"
     ],
     "targets.dev.metadata.runCommand": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn.0": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "packages/todo-web/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
       "packages/todo-web/package.json",
       "nx/core/package-json"
     ]

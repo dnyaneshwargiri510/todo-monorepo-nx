@@ -1,0 +1,18 @@
+> nx run @todo/core:lint
+
+> pnpm run lint
+
+[2m$ eslint .[22m
+[0m
+[4m/Users/dnyaneshwargiri/Desktop/workspace/todo-monorepo-nx/packages/todo-core/index.js[24m
+  [2m3:1[22m  [31merror[39m  Circular dependency between "@todo/core" and "@todo/web" detected: @todo/core -> @todo/web -> @todo/core
+
+Circular file chain:
+- packages/todo-core/index.js
+- packages/todo-web/package.json  [2m@nx/enforce-module-boundaries[22m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[0m
+[0J[41m[31m[[39m[49m[41m[30mELIFECYCLE[39m[49m[41m[31m][39m[49m [31mCommand failed with exit code 1.[39m
+[1A[0J[41m[31m[[39m[49m[41m[30mELIFECYCLE[39m[49m[41m[31m][39m[49m [31mCommand failed with exit code 1.[39m
+[43m[33m[[39m[49m[43m[30mWARN[39m[49m[43m[33m][39m[49m  Local package.json exists, but node_modules missing, did you mean to install?

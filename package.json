@@ -19,6 +19,8 @@
   },
   "type": "module",
   "devDependencies": {
+    "@nx/eslint-plugin": "^23.0.1",
+    "eslint": "^10.6.0",
     "nx": "^23.0.1"
   }
 }

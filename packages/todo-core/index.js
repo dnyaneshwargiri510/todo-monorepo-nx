@@ -1,4 +1,7 @@
 // Simple encapsulated state manager for the todo app
+
+// import { TodoButton } from '@todo/web'; // ❌ ILLEGAL!
+
 export function createTodoStore() {
   let todos = [];
   return {

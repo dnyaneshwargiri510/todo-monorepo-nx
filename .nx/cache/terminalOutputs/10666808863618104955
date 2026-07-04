@@ -1,0 +1,5 @@
+> nx run @todo/core:lint
+
+> pnpm run lint
+
+[2m$ eslint .[22m

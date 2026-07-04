@@ -1,9 +1,21 @@
 {
   "run": {
-    "command": "nx run-many -t build",
-    "startTime": "2026-07-04T06:16:23.846Z",
-    "endTime": "2026-07-04T06:16:23.891Z",
+    "command": "nx lint @todo/core",
+    "startTime": "2026-07-04T07:11:39.816Z",
+    "endTime": "2026-07-04T07:11:42.039Z",
     "inner": false
   },
-  "tasks": []
+  "tasks": [
+    {
+      "taskId": "@todo/core:lint",
+      "target": "lint",
+      "projectName": "@todo/core",
+      "hash": "10666808863618104955",
+      "startTime": "2026-07-04T07:11:39.865Z",
+      "endTime": "2026-07-04T07:11:42.037Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
 }

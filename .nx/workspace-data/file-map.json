@@ -1,40 +1,55 @@
 {
   "version": "6.0",
   "nxVersion": "23.0.1",
-  "pathMappings": {},
+  "pathMappings": {
+    "@todo/core": [
+      "packages/todo-core/index.js"
+    ],
+    "@todo/web": [
+      "packages/todo-web/app.js"
+    ]
+  },
   "nxJsonPlugins": [],
   "fileMap": {
     "nonProjectFiles": [
       {
         "file": "readme.md",
-        "hash": "6060196532038969651"
+        "hash": "17971863405651737687"
       },
       {
-        "file": "package.json",
-        "hash": "16458020713129097911"
+        "file": "nx.json",
+        "hash": "12994764451081892940"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5058276976102273075"
       },
       {
         "file": "pnpm-lock.yaml",
-        "hash": "15261453433337706351"
+        "hash": "4538446266485325221"
       },
       {
         "file": "pnpm-workspace.yaml",
         "hash": "5278389832866736010"
       },
       {
-        "file": "nx.json",
-        "hash": "12994764451081892940"
+        "file": "package.json",
+        "hash": "5783873254109784430"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "5517265787080794627"
       }
     ],
     "projectFileMap": {
       "@todo/core": [
         {
           "file": "packages/todo-core/index.js",
-          "hash": "2821969542158884709"
+          "hash": "17080694577376092972"
         },
         {
           "file": "packages/todo-core/package.json",
-          "hash": "10334376545825537514"
+          "hash": "12483984112942986536"
         }
       ],
       "@todo/web": [
@@ -48,7 +63,7 @@
         },
         {
           "file": "packages/todo-web/package.json",
-          "hash": "12290293684988621667",
+          "hash": "5608835807498213667",
           "deps": [
             "npm:vite",
             "@todo/core",
@@ -66,5 +81,5 @@
       ]
     }
   },
-  "externalNodesHash": "16600896611731401902"
+  "externalNodesHash": "15340287200856627585"
 }
